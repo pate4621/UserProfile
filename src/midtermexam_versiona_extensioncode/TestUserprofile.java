@@ -28,7 +28,9 @@ public class TestUserprofile {
         System.out.print("Enter the number corresponding to your favorite genre: ");
         int genreChoice = scanner.nextInt();
         scanner.nextLine(); // Consume the remaining newline character
-
+        
+        //commit 3
+        
         if (genreChoice >= 1 && genreChoice <= genres.length) {
             String chosenGenre = genres[genreChoice - 1];
             UserProfile userProfile = new UserProfile(name, chosenGenre);
